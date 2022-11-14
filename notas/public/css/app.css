@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 100%;
+    margin: 3em;
+    background: #666;
+    color: #fff;
+}
+.card{
+    
+    background: #fff;
+    color: #000;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 5px;
+    -moz-box-shadow: 5px 5px 7px rgba(33,33,33,1);
+    -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,1);
+    -moz-box-shadow: 5px 5px 7px rgba(33,33,33,1);
+    box-shadow: 5px 5px 7px rgba(33,33,33,1);
+    font-family: "Reenie Beanie", Arial, Helvetica, sans-serif;
+    font-size: 180% !important;
+    transform: rotate(-10deg);
+}
+.card-title{
+    font-weight: bold;
+}
+.card:hover,
+.card:focus{
+    -moz-box-shadow: 10px 10px 7px rgba(0,0,0,0.7);
+    -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,0.7);
+    box-shadow: 10px 10px 7px rgba(0,0,0,0.7);
+    -webkit-transform: scale(1.25);
+    -webkit-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    position: relative;
+    z-index: 5;
+    cursor: pointer;
+    transition: 3;
+    
+}
+.btn-flotante{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    background-color: red;
+    padding: 18px 30px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    transition: all 300ms ease 0ms;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    z-index: 99;
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn-flotante:hover{
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    transform: scale(1.1);
+    transition: all 300ms ease 0ms;
+    color: white;
+}
+.modal{
+    color: #000;
+}
+.card-title{
+    font-size: 34pt;
+    font-weight: bold;
+}
